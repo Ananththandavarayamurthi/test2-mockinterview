@@ -109,7 +109,7 @@ function Home() {
   return (
     <div>
 <div>    <input
-        
+                placeholder="Search..."
                 clearable
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
